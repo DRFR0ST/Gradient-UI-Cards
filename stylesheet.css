@@ -29,6 +29,7 @@ body{
 	height: 380px;
 	border-radius: 10px;
     text-align: center;
+	transition: box-shadow 255ms ease;
 }
 
 #avatar{
@@ -57,7 +58,6 @@ body{
 
  #card1:hover, #card2:hover, #card3:hover{
    box-shadow: 10px 10px 5px grey;
-   transition: 2s;
  }
 
  #card1 > h5:hover, #card2 > h5:hover, #card3 > h5:hover{
